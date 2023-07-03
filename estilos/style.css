@@ -95,7 +95,8 @@ main {
 }
 
 .botao:hover{
-    background-color: #325E79;
+    background-color: #FFD998;
+    color: black;
 }
 
 form > input[type=submit] {
@@ -111,6 +112,7 @@ form > input[type=submit] {
 }
 
 form > input[type=submit]:hover{
-    background-color: #325E79;
+    background-color: #FFD998;
+    color: black;
 }
 
