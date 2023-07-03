@@ -9,21 +9,28 @@
         width: 85vw;
     }
 
-    #login > imagem{
+    #login > #imagem{
         float: left;
         width: 30%;
         height: 100%;
+        background-position:right;
     }
     #login > #formulario {
         float: right;
         width: 70%;
     }
-    #imagem{
-        background-position:center, left;
-        background-size: cover;
-        background-repeat: no-repeat;
+
+    #formulario > h1 {
+        font-size: 1.6em;
     }
+    
+    #formulario > p {
+    font-size: 1.1em;
+    }
+    
 }
+    
+
 
 @media screen and (min-width: 992px) {
 
@@ -35,7 +42,7 @@
     }
 
     #login > #imagem {
-        float: left;
+        float: right;
         width: 50%;
         height: 100%;
 
@@ -44,6 +51,14 @@
     #login > #formulario {
         float: right;
         width: 50%;
+    }
+    
+    #formulario > h1 {
+        font-size: 2em;
+    }
+    
+    #formulario > p {
+    font-size: 1.2em;
     }
     
 }
