@@ -8,3 +8,50 @@ Bege #FFD998
 Cinza escuro #1F2C34
 Azul escuro #020307
  */
+
+ *{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #325E79;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+#login{
+    position: absolute;
+    top: 50% ;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px hsla(0, 0%, 0%, 0.450);
+}
+
+#imagem{
+    display: block;
+    background:#325E79 url(../imagens/predios.jpg);
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+#login > formulario {
+    padding: 10px;
+    display: block;
+
+}
